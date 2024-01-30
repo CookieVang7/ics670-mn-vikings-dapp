@@ -1,2 +1,2 @@
 # ics670-mn-vikings-dapp
-ICS670 semester project making a dapp to make decisions on behalf of a sports franchise GM. As an example, I use my favorite team, the Minnesota Vikings
+ICS670 semester project making a dapp to hypothetically make decisions on behalf of the GM of my favorite football team, the Minnesota Vikings
