@@ -149,7 +149,7 @@
                 }
               ]
             },
-            "name": "array_length_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr",
+            "name": "array_length_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr",
             "nativeSrc": "7:137:9",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -250,7 +250,7 @@
                 }
               ]
             },
-            "name": "array_storeLengthForEncoding_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr_fromStack",
+            "name": "array_storeLengthForEncoding_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr_fromStack",
             "nativeSrc": "150:207:9",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -347,7 +347,7 @@
                 }
               ]
             },
-            "name": "array_dataslot_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr",
+            "name": "array_dataslot_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr",
             "nativeSrc": "363:155:9",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -1083,7 +1083,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_struct$_Member_$402_memory_ptr_to_t_struct$_Member_$402_memory_ptr",
+            "name": "abi_encode_t_struct$_Member_$623_memory_ptr_to_t_struct$_Member_$623_memory_ptr",
             "nativeSrc": "1133:673:9",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -1127,7 +1127,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_struct$_Member_$402_memory_ptr_to_t_struct$_Member_$402_memory_ptr",
+                      "name": "abi_encode_t_struct$_Member_$623_memory_ptr_to_t_struct$_Member_$623_memory_ptr",
                       "nativeSrc": "1948:79:9",
                       "nodeType": "YulIdentifier",
                       "src": "1948:79:9"
@@ -1182,7 +1182,7 @@
                 }
               ]
             },
-            "name": "abi_encodeUpdatedPos_t_struct$_Member_$402_memory_ptr_to_t_struct$_Member_$402_memory_ptr",
+            "name": "abi_encodeUpdatedPos_t_struct$_Member_$623_memory_ptr_to_t_struct$_Member_$623_memory_ptr",
             "nativeSrc": "1812:271:9",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -1260,7 +1260,7 @@
                 }
               ]
             },
-            "name": "array_nextElement_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr",
+            "name": "array_nextElement_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr",
             "nativeSrc": "2089:136:9",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -1303,7 +1303,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "array_length_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr",
+                      "name": "array_length_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr",
                       "nativeSrc": "2493:70:9",
                       "nodeType": "YulIdentifier",
                       "src": "2493:70:9"
@@ -1342,7 +1342,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "array_storeLengthForEncoding_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr_fromStack",
+                      "name": "array_storeLengthForEncoding_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr_fromStack",
                       "nativeSrc": "2586:96:9",
                       "nodeType": "YulIdentifier",
                       "src": "2586:96:9"
@@ -1374,7 +1374,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "array_dataslot_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr",
+                      "name": "array_dataslot_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr",
                       "nativeSrc": "2719:72:9",
                       "nodeType": "YulIdentifier",
                       "src": "2719:72:9"
@@ -1472,7 +1472,7 @@
                             }
                           ],
                           "functionName": {
-                            "name": "abi_encodeUpdatedPos_t_struct$_Member_$402_memory_ptr_to_t_struct$_Member_$402_memory_ptr",
+                            "name": "abi_encodeUpdatedPos_t_struct$_Member_$623_memory_ptr_to_t_struct$_Member_$623_memory_ptr",
                             "nativeSrc": "2965:89:9",
                             "nodeType": "YulIdentifier",
                             "src": "2965:89:9"
@@ -1504,7 +1504,7 @@
                             }
                           ],
                           "functionName": {
-                            "name": "array_nextElement_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr",
+                            "name": "array_nextElement_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr",
                             "nativeSrc": "3097:75:9",
                             "nodeType": "YulIdentifier",
                             "src": "3097:75:9"
@@ -1650,7 +1650,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr_fromStack",
+            "name": "abi_encode_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr_fromStack",
             "nativeSrc": "2299:916:9",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -1816,7 +1816,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr_fromStack",
+                      "name": "abi_encode_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr_fromStack",
                       "nativeSrc": "3525:139:9",
                       "nodeType": "YulIdentifier",
                       "src": "3525:139:9"
@@ -1836,7 +1836,7 @@
                 }
               ]
             },
-            "name": "abi_encode_tuple_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr__fromStack_reversed",
+            "name": "abi_encode_tuple_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr__fromStack_reversed",
             "nativeSrc": "3221:465:9",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
@@ -2819,7 +2819,7 @@
           }
         ]
       },
-      "contents": "{\n\n    function array_length_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function array_dataslot_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr(ptr) -> data {\n        data := ptr\n\n        data := add(ptr, 0x20)\n\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function cleanup_t_address(value) -> cleaned {\n        cleaned := cleanup_t_uint160(value)\n    }\n\n    function abi_encode_t_address_to_t_address(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function abi_encode_t_uint256_to_t_uint256(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    // struct SkolFaithful.Member -> struct SkolFaithful.Member\n    function abi_encode_t_struct$_Member_$402_memory_ptr_to_t_struct$_Member_$402_memory_ptr(value, pos)  {\n        let tail := add(pos, 0x60)\n\n        {\n            // owner\n\n            let memberValue0 := mload(add(value, 0x00))\n            abi_encode_t_address_to_t_address(memberValue0, add(pos, 0x00))\n        }\n\n        {\n            // mvcs\n\n            let memberValue0 := mload(add(value, 0x20))\n            abi_encode_t_uint256_to_t_uint256(memberValue0, add(pos, 0x20))\n        }\n\n        {\n            // repTokens\n\n            let memberValue0 := mload(add(value, 0x40))\n            abi_encode_t_uint256_to_t_uint256(memberValue0, add(pos, 0x40))\n        }\n\n    }\n\n    function abi_encodeUpdatedPos_t_struct$_Member_$402_memory_ptr_to_t_struct$_Member_$402_memory_ptr(value0, pos) -> updatedPos {\n        abi_encode_t_struct$_Member_$402_memory_ptr_to_t_struct$_Member_$402_memory_ptr(value0, pos)\n        updatedPos := add(pos, 0x60)\n    }\n\n    function array_nextElement_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr(ptr) -> next {\n        next := add(ptr, 0x20)\n    }\n\n    // struct SkolFaithful.Member[] -> struct SkolFaithful.Member[]\n    function abi_encode_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr_fromStack(value, pos)  -> end  {\n        let length := array_length_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr_fromStack(pos, length)\n        let baseRef := array_dataslot_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr(value)\n        let srcPtr := baseRef\n        for { let i := 0 } lt(i, length) { i := add(i, 1) }\n        {\n            let elementValue0 := mload(srcPtr)\n            pos := abi_encodeUpdatedPos_t_struct$_Member_$402_memory_ptr_to_t_struct$_Member_$402_memory_ptr(elementValue0, pos)\n            srcPtr := array_nextElement_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr(srcPtr)\n        }\n        end := pos\n    }\n\n    function abi_encode_tuple_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr_fromStack(value0,  tail)\n\n    }\n\n    function allocate_unbounded() -> memPtr {\n        memPtr := mload(64)\n    }\n\n    function revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() {\n        revert(0, 0)\n    }\n\n    function revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() {\n        revert(0, 0)\n    }\n\n    function validator_revert_t_uint256(value) {\n        if iszero(eq(value, cleanup_t_uint256(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_uint256(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_uint256(value)\n    }\n\n    function abi_decode_tuple_t_uint256(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_t_address_to_t_address_fromStack(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    function abi_encode_t_uint256_to_t_uint256_fromStack(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function abi_encode_tuple_t_address_t_uint256_t_uint256__to_t_address_t_uint256_t_uint256__fromStack_reversed(headStart , value2, value1, value0) -> tail {\n        tail := add(headStart, 96)\n\n        abi_encode_t_address_to_t_address_fromStack(value0,  add(headStart, 0))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value1,  add(headStart, 32))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value2,  add(headStart, 64))\n\n    }\n\n}\n",
+      "contents": "{\n\n    function array_length_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function array_dataslot_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr(ptr) -> data {\n        data := ptr\n\n        data := add(ptr, 0x20)\n\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function cleanup_t_address(value) -> cleaned {\n        cleaned := cleanup_t_uint160(value)\n    }\n\n    function abi_encode_t_address_to_t_address(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function abi_encode_t_uint256_to_t_uint256(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    // struct SkolFaithful.Member -> struct SkolFaithful.Member\n    function abi_encode_t_struct$_Member_$623_memory_ptr_to_t_struct$_Member_$623_memory_ptr(value, pos)  {\n        let tail := add(pos, 0x60)\n\n        {\n            // owner\n\n            let memberValue0 := mload(add(value, 0x00))\n            abi_encode_t_address_to_t_address(memberValue0, add(pos, 0x00))\n        }\n\n        {\n            // mvcs\n\n            let memberValue0 := mload(add(value, 0x20))\n            abi_encode_t_uint256_to_t_uint256(memberValue0, add(pos, 0x20))\n        }\n\n        {\n            // repTokens\n\n            let memberValue0 := mload(add(value, 0x40))\n            abi_encode_t_uint256_to_t_uint256(memberValue0, add(pos, 0x40))\n        }\n\n    }\n\n    function abi_encodeUpdatedPos_t_struct$_Member_$623_memory_ptr_to_t_struct$_Member_$623_memory_ptr(value0, pos) -> updatedPos {\n        abi_encode_t_struct$_Member_$623_memory_ptr_to_t_struct$_Member_$623_memory_ptr(value0, pos)\n        updatedPos := add(pos, 0x60)\n    }\n\n    function array_nextElement_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr(ptr) -> next {\n        next := add(ptr, 0x20)\n    }\n\n    // struct SkolFaithful.Member[] -> struct SkolFaithful.Member[]\n    function abi_encode_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr_fromStack(value, pos)  -> end  {\n        let length := array_length_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr_fromStack(pos, length)\n        let baseRef := array_dataslot_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr(value)\n        let srcPtr := baseRef\n        for { let i := 0 } lt(i, length) { i := add(i, 1) }\n        {\n            let elementValue0 := mload(srcPtr)\n            pos := abi_encodeUpdatedPos_t_struct$_Member_$623_memory_ptr_to_t_struct$_Member_$623_memory_ptr(elementValue0, pos)\n            srcPtr := array_nextElement_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr(srcPtr)\n        }\n        end := pos\n    }\n\n    function abi_encode_tuple_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr_fromStack(value0,  tail)\n\n    }\n\n    function allocate_unbounded() -> memPtr {\n        memPtr := mload(64)\n    }\n\n    function revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() {\n        revert(0, 0)\n    }\n\n    function revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() {\n        revert(0, 0)\n    }\n\n    function validator_revert_t_uint256(value) {\n        if iszero(eq(value, cleanup_t_uint256(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_uint256(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_uint256(value)\n    }\n\n    function abi_decode_tuple_t_uint256(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_t_address_to_t_address_fromStack(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    function abi_encode_t_uint256_to_t_uint256_fromStack(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function abi_encode_tuple_t_address_t_uint256_t_uint256__to_t_address_t_uint256_t_uint256__fromStack_reversed(headStart , value2, value1, value0) -> tail {\n        tail := add(headStart, 96)\n\n        abi_encode_t_address_to_t_address_fromStack(value0,  add(headStart, 0))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value1,  add(headStart, 32))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value2,  add(headStart, 64))\n\n    }\n\n}\n",
       "id": 9,
       "language": "Yul",
       "name": "#utility.yul"
@@ -2833,15 +2833,15 @@
     "absolutePath": "project:/contracts/SkolFaithful.sol",
     "exportedSymbols": {
       "SkolFaithful": [
-        450
+        671
       ]
     },
-    "id": 451,
+    "id": 672,
     "license": "UNLICENSED",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 395,
+        "id": 616,
         "literals": [
           "solidity",
           "^",
@@ -2858,9 +2858,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 450,
+        "id": 671,
         "linearizedBaseContracts": [
-          450
+          671
         ],
         "name": "SkolFaithful",
         "nameLocation": "77:12:2",
@@ -2868,16 +2868,16 @@
         "nodes": [
           {
             "canonicalName": "SkolFaithful.Member",
-            "id": 402,
+            "id": 623,
             "members": [
               {
                 "constant": false,
-                "id": 397,
+                "id": 618,
                 "mutability": "mutable",
                 "name": "owner",
                 "nameLocation": "130:5:2",
                 "nodeType": "VariableDeclaration",
-                "scope": 402,
+                "scope": 623,
                 "src": "122:13:2",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -2886,7 +2886,7 @@
                   "typeString": "address"
                 },
                 "typeName": {
-                  "id": 396,
+                  "id": 617,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
                   "src": "122:7:2",
@@ -2900,12 +2900,12 @@
               },
               {
                 "constant": false,
-                "id": 399,
+                "id": 620,
                 "mutability": "mutable",
                 "name": "mvcs",
                 "nameLocation": "151:4:2",
                 "nodeType": "VariableDeclaration",
-                "scope": 402,
+                "scope": 623,
                 "src": "146:9:2",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -2914,7 +2914,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 398,
+                  "id": 619,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
                   "src": "146:4:2",
@@ -2927,12 +2927,12 @@
               },
               {
                 "constant": false,
-                "id": 401,
+                "id": 622,
                 "mutability": "mutable",
                 "name": "repTokens",
                 "nameLocation": "171:9:2",
                 "nodeType": "VariableDeclaration",
-                "scope": 402,
+                "scope": 623,
                 "src": "166:14:2",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -2941,7 +2941,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 400,
+                  "id": 621,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
                   "src": "166:4:2",
@@ -2956,52 +2956,52 @@
             "name": "Member",
             "nameLocation": "104:6:2",
             "nodeType": "StructDefinition",
-            "scope": 450,
+            "scope": 671,
             "src": "97:91:2",
             "visibility": "public"
           },
           {
             "constant": false,
             "functionSelector": "e5ce4ef4",
-            "id": 406,
+            "id": 627,
             "mutability": "mutable",
             "name": "skolFaithful",
             "nameLocation": "212:12:2",
             "nodeType": "VariableDeclaration",
-            "scope": 450,
+            "scope": 671,
             "src": "196:28:2",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_array$_t_struct$_Member_$402_storage_$dyn_storage",
+              "typeIdentifier": "t_array$_t_struct$_Member_$623_storage_$dyn_storage",
               "typeString": "struct SkolFaithful.Member[]"
             },
             "typeName": {
               "baseType": {
-                "id": 404,
+                "id": 625,
                 "nodeType": "UserDefinedTypeName",
                 "pathNode": {
-                  "id": 403,
+                  "id": 624,
                   "name": "Member",
                   "nameLocations": [
                     "196:6:2"
                   ],
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 402,
+                  "referencedDeclaration": 623,
                   "src": "196:6:2"
                 },
-                "referencedDeclaration": 402,
+                "referencedDeclaration": 623,
                 "src": "196:6:2",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Member_$402_storage_ptr",
+                  "typeIdentifier": "t_struct$_Member_$623_storage_ptr",
                   "typeString": "struct SkolFaithful.Member"
                 }
               },
-              "id": 405,
+              "id": 626,
               "nodeType": "ArrayTypeName",
               "src": "196:8:2",
               "typeDescriptions": {
-                "typeIdentifier": "t_array$_t_struct$_Member_$402_storage_$dyn_storage_ptr",
+                "typeIdentifier": "t_array$_t_struct$_Member_$623_storage_$dyn_storage_ptr",
                 "typeString": "struct SkolFaithful.Member[]"
               }
             },
@@ -3009,32 +3009,32 @@
           },
           {
             "body": {
-              "id": 415,
+              "id": 636,
               "nodeType": "Block",
               "src": "294:38:2",
               "statements": [
                 {
                   "expression": {
-                    "id": 413,
+                    "id": 634,
                     "name": "skolFaithful",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 406,
+                    "referencedDeclaration": 627,
                     "src": "312:12:2",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_Member_$402_storage_$dyn_storage",
+                      "typeIdentifier": "t_array$_t_struct$_Member_$623_storage_$dyn_storage",
                       "typeString": "struct SkolFaithful.Member storage ref[] storage ref"
                     }
                   },
-                  "functionReturnParameters": 412,
-                  "id": 414,
+                  "functionReturnParameters": 633,
+                  "id": 635,
                   "nodeType": "Return",
                   "src": "305:19:2"
                 }
               ]
             },
             "functionSelector": "9eab5253",
-            "id": 416,
+            "id": 637,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -3042,56 +3042,56 @@
             "nameLocation": "242:10:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 407,
+              "id": 628,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "252:2:2"
             },
             "returnParameters": {
-              "id": 412,
+              "id": 633,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 411,
+                  "id": 632,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 416,
+                  "scope": 637,
                   "src": "278:15:2",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_Member_$402_memory_ptr_$dyn_memory_ptr",
+                    "typeIdentifier": "t_array$_t_struct$_Member_$623_memory_ptr_$dyn_memory_ptr",
                     "typeString": "struct SkolFaithful.Member[]"
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 409,
+                      "id": 630,
                       "nodeType": "UserDefinedTypeName",
                       "pathNode": {
-                        "id": 408,
+                        "id": 629,
                         "name": "Member",
                         "nameLocations": [
                           "278:6:2"
                         ],
                         "nodeType": "IdentifierPath",
-                        "referencedDeclaration": 402,
+                        "referencedDeclaration": 623,
                         "src": "278:6:2"
                       },
-                      "referencedDeclaration": 402,
+                      "referencedDeclaration": 623,
                       "src": "278:6:2",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Member_$402_storage_ptr",
+                        "typeIdentifier": "t_struct$_Member_$623_storage_ptr",
                         "typeString": "struct SkolFaithful.Member"
                       }
                     },
-                    "id": 410,
+                    "id": 631,
                     "nodeType": "ArrayTypeName",
                     "src": "278:8:2",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_Member_$402_storage_$dyn_storage_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_Member_$623_storage_$dyn_storage_ptr",
                       "typeString": "struct SkolFaithful.Member[]"
                     }
                   },
@@ -3100,7 +3100,7 @@
               ],
               "src": "277:17:2"
             },
-            "scope": 450,
+            "scope": 671,
             "src": "233:99:2",
             "stateMutability": "view",
             "virtual": false,
@@ -3109,23 +3109,23 @@
           {
             "anonymous": false,
             "eventSelector": "002c1c479239b4422c5081539591da881dbe78a4e0b509948d1e044fc80c7906",
-            "id": 423,
+            "id": 644,
             "name": "MemberAdded",
             "nameLocation": "346:11:2",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 422,
+              "id": 643,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 418,
+                  "id": 639,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "sender",
                   "nameLocation": "366:6:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 423,
+                  "scope": 644,
                   "src": "358:14:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3134,7 +3134,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 417,
+                    "id": 638,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "358:7:2",
@@ -3148,37 +3148,37 @@
                 },
                 {
                   "constant": false,
-                  "id": 421,
+                  "id": 642,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "member",
                   "nameLocation": "381:6:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 423,
+                  "scope": 644,
                   "src": "374:13:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_Member_$402_memory_ptr",
+                    "typeIdentifier": "t_struct$_Member_$623_memory_ptr",
                     "typeString": "struct SkolFaithful.Member"
                   },
                   "typeName": {
-                    "id": 420,
+                    "id": 641,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 419,
+                      "id": 640,
                       "name": "Member",
                       "nameLocations": [
                         "374:6:2"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 402,
+                      "referencedDeclaration": 623,
                       "src": "374:6:2"
                     },
-                    "referencedDeclaration": 402,
+                    "referencedDeclaration": 623,
                     "src": "374:6:2",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Member_$402_storage_ptr",
+                      "typeIdentifier": "t_struct$_Member_$623_storage_ptr",
                       "typeString": "struct SkolFaithful.Member"
                     }
                   },
@@ -3191,62 +3191,62 @@
           },
           {
             "body": {
-              "id": 448,
+              "id": 669,
               "nodeType": "Block",
               "src": "438:129:2",
               "statements": [
                 {
                   "assignments": [
-                    430
+                    651
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 430,
+                      "id": 651,
                       "mutability": "mutable",
                       "name": "fan",
                       "nameLocation": "463:3:2",
                       "nodeType": "VariableDeclaration",
-                      "scope": 448,
+                      "scope": 669,
                       "src": "449:17:2",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Member_$402_memory_ptr",
+                        "typeIdentifier": "t_struct$_Member_$623_memory_ptr",
                         "typeString": "struct SkolFaithful.Member"
                       },
                       "typeName": {
-                        "id": 429,
+                        "id": 650,
                         "nodeType": "UserDefinedTypeName",
                         "pathNode": {
-                          "id": 428,
+                          "id": 649,
                           "name": "Member",
                           "nameLocations": [
                             "449:6:2"
                           ],
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 402,
+                          "referencedDeclaration": 623,
                           "src": "449:6:2"
                         },
-                        "referencedDeclaration": 402,
+                        "referencedDeclaration": 623,
                         "src": "449:6:2",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Member_$402_storage_ptr",
+                          "typeIdentifier": "t_struct$_Member_$623_storage_ptr",
                           "typeString": "struct SkolFaithful.Member"
                         }
                       },
                       "visibility": "internal"
                     }
                   ],
-                  "id": 436,
+                  "id": 657,
                   "initialValue": {
                     "arguments": [
                       {
-                        "id": 432,
+                        "id": 653,
                         "name": "_owner",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 425,
+                        "referencedDeclaration": 646,
                         "src": "476:6:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -3255,7 +3255,7 @@
                       },
                       {
                         "hexValue": "34",
-                        "id": 433,
+                        "id": 654,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -3271,7 +3271,7 @@
                       },
                       {
                         "hexValue": "30",
-                        "id": 434,
+                        "id": 655,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -3301,18 +3301,18 @@
                           "typeString": "int_const 0"
                         }
                       ],
-                      "id": 431,
+                      "id": 652,
                       "name": "Member",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 402,
+                      "referencedDeclaration": 623,
                       "src": "469:6:2",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_struct$_Member_$402_storage_ptr_$",
+                        "typeIdentifier": "t_type$_t_struct$_Member_$623_storage_ptr_$",
                         "typeString": "type(struct SkolFaithful.Member storage pointer)"
                       }
                     },
-                    "id": 435,
+                    "id": 656,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3324,7 +3324,7 @@
                     "src": "469:18:2",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Member_$402_memory_ptr",
+                      "typeIdentifier": "t_struct$_Member_$623_memory_ptr",
                       "typeString": "struct SkolFaithful.Member memory"
                     }
                   },
@@ -3335,14 +3335,14 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 440,
+                        "id": 661,
                         "name": "fan",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 430,
+                        "referencedDeclaration": 651,
                         "src": "516:3:2",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Member_$402_memory_ptr",
+                          "typeIdentifier": "t_struct$_Member_$623_memory_ptr",
                           "typeString": "struct SkolFaithful.Member memory"
                         }
                       }
@@ -3350,23 +3350,23 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_struct$_Member_$402_memory_ptr",
+                          "typeIdentifier": "t_struct$_Member_$623_memory_ptr",
                           "typeString": "struct SkolFaithful.Member memory"
                         }
                       ],
                       "expression": {
-                        "id": 437,
+                        "id": 658,
                         "name": "skolFaithful",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 406,
+                        "referencedDeclaration": 627,
                         "src": "498:12:2",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_Member_$402_storage_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_struct$_Member_$623_storage_$dyn_storage",
                           "typeString": "struct SkolFaithful.Member storage ref[] storage ref"
                         }
                       },
-                      "id": 439,
+                      "id": 660,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -3376,11 +3376,11 @@
                       "nodeType": "MemberAccess",
                       "src": "498:17:2",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Member_$402_storage_$dyn_storage_ptr_$_t_struct$_Member_$402_storage_$returns$__$attached_to$_t_array$_t_struct$_Member_$402_storage_$dyn_storage_ptr_$",
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Member_$623_storage_$dyn_storage_ptr_$_t_struct$_Member_$623_storage_$returns$__$attached_to$_t_array$_t_struct$_Member_$623_storage_$dyn_storage_ptr_$",
                         "typeString": "function (struct SkolFaithful.Member storage ref[] storage pointer,struct SkolFaithful.Member storage ref)"
                       }
                     },
-                    "id": 441,
+                    "id": 662,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3396,7 +3396,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 442,
+                  "id": 663,
                   "nodeType": "ExpressionStatement",
                   "src": "498:22:2"
                 },
@@ -3404,11 +3404,11 @@
                   "eventCall": {
                     "arguments": [
                       {
-                        "id": 444,
+                        "id": 665,
                         "name": "_owner",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 425,
+                        "referencedDeclaration": 646,
                         "src": "548:6:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -3416,14 +3416,14 @@
                         }
                       },
                       {
-                        "id": 445,
+                        "id": 666,
                         "name": "fan",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 430,
+                        "referencedDeclaration": 651,
                         "src": "555:3:2",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Member_$402_memory_ptr",
+                          "typeIdentifier": "t_struct$_Member_$623_memory_ptr",
                           "typeString": "struct SkolFaithful.Member memory"
                         }
                       }
@@ -3435,22 +3435,22 @@
                           "typeString": "address"
                         },
                         {
-                          "typeIdentifier": "t_struct$_Member_$402_memory_ptr",
+                          "typeIdentifier": "t_struct$_Member_$623_memory_ptr",
                           "typeString": "struct SkolFaithful.Member memory"
                         }
                       ],
-                      "id": 443,
+                      "id": 664,
                       "name": "MemberAdded",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 423,
+                      "referencedDeclaration": 644,
                       "src": "536:11:2",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_struct$_Member_$402_memory_ptr_$returns$__$",
+                        "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_struct$_Member_$623_memory_ptr_$returns$__$",
                         "typeString": "function (address,struct SkolFaithful.Member memory)"
                       }
                     },
-                    "id": 446,
+                    "id": 667,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3466,13 +3466,13 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 447,
+                  "id": 668,
                   "nodeType": "EmitStatement",
                   "src": "531:28:2"
                 }
               ]
             },
-            "id": 449,
+            "id": 670,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -3480,17 +3480,17 @@
             "nameLocation": "404:9:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 426,
+              "id": 647,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 425,
+                  "id": 646,
                   "mutability": "mutable",
                   "name": "_owner",
                   "nameLocation": "422:6:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 449,
+                  "scope": 670,
                   "src": "414:14:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3499,7 +3499,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 424,
+                    "id": 645,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "414:7:2",
@@ -3515,23 +3515,23 @@
               "src": "413:16:2"
             },
             "returnParameters": {
-              "id": 427,
+              "id": 648,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "438:0:2"
             },
-            "scope": 450,
+            "scope": 671,
             "src": "395:172:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "private"
           }
         ],
-        "scope": 451,
+        "scope": 672,
         "src": "68:502:2",
         "usedErrors": [],
         "usedEvents": [
-          423
+          644
         ]
       }
     ],
@@ -3543,7 +3543,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-02-18T18:39:24.734Z",
+  "updatedAt": "2024-02-20T06:39:31.981Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

@@ -3,13 +3,13 @@ pragma solidity ^0.8.19;
 
 interface VotingInterface {
     struct Proposal {
-        address ownerAddress;
+        address ownerAddress; //proposer's address
         string proposalType;
         string candidate;
     }
 
     struct CoachVote {
-        address ownerAddress;
+        address ownerAddress; //voter's address
         string proposalType;
         string candidate;
     }
