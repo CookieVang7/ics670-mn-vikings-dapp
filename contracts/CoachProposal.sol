@@ -45,16 +45,17 @@ contract CoachProposal {
         availableCoaches.pop();
     }
 
+    // a user wanting to make a proposal would have to see who the available choices are
     function getAvailableCoaches() external view returns (Coach[] memory) {
         return availableCoaches;
     }
 
     VotingInterface.Proposal public proposal; // using shared proposal struct in interface so both contracts can see it
-    uint proposalFee = 0.004 ether; // costs 4 MVCs to submit a proposal
+    uint proposalFee = 0.4 ether; // costs 4 MVCs to submit a proposal
     event CoachProposalSent(address sender, VotingInterface.Proposal proposal);
 
     // sends a CoachProposal to the VotingMechanism
-    // costs 4 MVC coins to execute (0.004 ether)
+    // costs 4 MVC coins to execute (0.4 ether)
     function sendCoachProposal(Coach memory candidate) external payable {
         require(isCoachAvailable(candidate.name), "Coach is not available to hire");
         require(msg.value == proposalFee);
@@ -65,7 +66,7 @@ contract CoachProposal {
         proposal.proposalType = "coach";
         proposal.candidate = "Mike Vrabel";
 
-        CoachVotingMechanism(VotingMechanismAddress).receiveCoachProposal{value:msg.value}(proposal);
+        CoachVotingMechanism(VotingMechanismAddress).receiveCoachProposal{value:msg.value}(proposal, msg.value);
 
         emit CoachProposalSent(msg.sender, proposal);
     }
