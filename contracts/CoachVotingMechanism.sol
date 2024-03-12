@@ -3,13 +3,17 @@ pragma solidity ^0.8.19;
 
 import "./safemath.sol";
 import "./VotingInterface.sol";
+import "./RepSystemInterface.sol";
+import "./SkolFaithful.sol";
 
 contract CoachVotingMechanism {
 
     address public VotingMechanismAddress;
+    SkolFaithful public skolFaithful;
 
-    constructor(address _VotingMechanismAddress) {
+    constructor(address _VotingMechanismAddress, address _skolFaithfulAddress) {
         VotingMechanismAddress = _VotingMechanismAddress;
+        skolFaithful = SkolFaithful(_skolFaithfulAddress);
     }
 
     using SafeMath for uint;
@@ -77,6 +81,7 @@ contract CoachVotingMechanism {
         }
 
         totalVotes = totalVotes.add(1);
+        totalMVCs = totalMVCs.add(2);
 
         emit CoachVoteReceived(msg.sender, coachVote);
     }
@@ -124,19 +129,47 @@ contract CoachVotingMechanism {
 
     // distributes the totalMVC in the order specified in the README
     // 1 MVC = 0.1 eth
-    // function distributeMVCSafterVote(ProposalAndVotes[] memory topFive) private {
-    //     for (uint i=0; i<topFive.length; i++){
-    //         for (uint j=0; j<topFive[i].voterAddresses.length; j++){
-    //             sendMVC(topFive[i].voterAddresses[j], VotingMechanismAddress, 0.1);
-    //         }
-    //     }
-    // }
+    function distributeMVCSafterVote(ProposalAndVotes[] memory topFive) private {
+        for (uint i=0; i<topFive.length; i++){ // rule 1
+            for (uint j=0; j<topFive[i].voterAddresses.length; j++){
+                address payable recipient = payable(topFive[i].voterAddresses[j]);
+                sendMVC(recipient, VotingMechanismAddress, 0.1 ether);
+            }
+            totalMVCs = totalMVCs.sub(topFive[i].voterAddresses.length);
+        }
+
+        uint conversion = 10;
+        uint initialPercent = 30;
+
+        for (uint k=0; k<topFive.length; k++){ // rules 2-6
+            uint percentage = initialPercent - k * 5;
+            uint amount = (totalMVCs*percentage/100)*conversion/100;
+
+            address payable recipient2 = payable(topFive[k].proposal.ownerAddress);
+            sendMVC(recipient2, VotingMechanismAddress, amount);
+        }
+
+        // the remaining MVCs are now DESTROYED!!!
+    }
 
     function sendMVC(address payable _to, address _from, uint amount) public payable {
         require(msg.sender == _from, "Only the specified sender can call this function");
         require(address(this).balance >= amount, "Insufficient balance in the contract");
 
         _to.transfer(amount);
+    }
+
+    function awardRepTokens(address _memberAddress, uint _tokens) external {
+        uint totalMembers = skolFaithful.getMembers().length;
+
+        for (uint i=0; i<totalMembers; i++){
+            SkolFaithful.Member memory member = skolFaithful.getMemberAtIndex(i);
+
+            if (member.owner == _memberAddress){
+                skolFaithful.updateRepTokens(i, _tokens);
+                return;
+            }
+        }
     }
     
 }
