@@ -15,15 +15,15 @@
     "absolutePath": "project:/contracts/VotingInterface.sol",
     "exportedSymbols": {
       "VotingInterface": [
-        688
+        1057
       ]
     },
-    "id": 689,
+    "id": 1058,
     "license": "UNLICENSED",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 673,
+        "id": 1042,
         "literals": [
           "solidity",
           "^",
@@ -31,7 +31,7 @@
           ".19"
         ],
         "nodeType": "PragmaDirective",
-        "src": "40:24:3"
+        "src": "40:24:4"
       },
       {
         "abstract": false,
@@ -40,27 +40,27 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": true,
-        "id": 688,
+        "id": 1057,
         "linearizedBaseContracts": [
-          688
+          1057
         ],
         "name": "VotingInterface",
-        "nameLocation": "78:15:3",
+        "nameLocation": "78:15:4",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "canonicalName": "VotingInterface.Proposal",
-            "id": 680,
+            "id": 1049,
             "members": [
               {
                 "constant": false,
-                "id": 675,
+                "id": 1044,
                 "mutability": "mutable",
                 "name": "ownerAddress",
-                "nameLocation": "136:12:3",
+                "nameLocation": "136:12:4",
                 "nodeType": "VariableDeclaration",
-                "scope": 680,
-                "src": "128:20:3",
+                "scope": 1049,
+                "src": "128:20:4",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -68,10 +68,10 @@
                   "typeString": "address"
                 },
                 "typeName": {
-                  "id": 674,
+                  "id": 1043,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
-                  "src": "128:7:3",
+                  "src": "128:7:4",
                   "stateMutability": "nonpayable",
                   "typeDescriptions": {
                     "typeIdentifier": "t_address",
@@ -82,13 +82,13 @@
               },
               {
                 "constant": false,
-                "id": 677,
+                "id": 1046,
                 "mutability": "mutable",
                 "name": "proposalType",
-                "nameLocation": "187:12:3",
+                "nameLocation": "187:12:4",
                 "nodeType": "VariableDeclaration",
-                "scope": 680,
-                "src": "180:19:3",
+                "scope": 1049,
+                "src": "180:19:4",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -96,10 +96,10 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 676,
+                  "id": 1045,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "180:6:3",
+                  "src": "180:6:4",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string"
@@ -109,13 +109,13 @@
               },
               {
                 "constant": false,
-                "id": 679,
+                "id": 1048,
                 "mutability": "mutable",
                 "name": "candidate",
-                "nameLocation": "217:9:3",
+                "nameLocation": "217:9:4",
                 "nodeType": "VariableDeclaration",
-                "scope": 680,
-                "src": "210:16:3",
+                "scope": 1049,
+                "src": "210:16:4",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -123,10 +123,10 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 678,
+                  "id": 1047,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "210:6:3",
+                  "src": "210:6:4",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string"
@@ -136,25 +136,25 @@
               }
             ],
             "name": "Proposal",
-            "nameLocation": "108:8:3",
+            "nameLocation": "108:8:4",
             "nodeType": "StructDefinition",
-            "scope": 688,
-            "src": "101:133:3",
+            "scope": 1057,
+            "src": "101:133:4",
             "visibility": "public"
           },
           {
             "canonicalName": "VotingInterface.CoachVote",
-            "id": 687,
+            "id": 1056,
             "members": [
               {
                 "constant": false,
-                "id": 682,
+                "id": 1051,
                 "mutability": "mutable",
                 "name": "ownerAddress",
-                "nameLocation": "278:12:3",
+                "nameLocation": "278:12:4",
                 "nodeType": "VariableDeclaration",
-                "scope": 687,
-                "src": "270:20:3",
+                "scope": 1056,
+                "src": "270:20:4",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -162,10 +162,10 @@
                   "typeString": "address"
                 },
                 "typeName": {
-                  "id": 681,
+                  "id": 1050,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
-                  "src": "270:7:3",
+                  "src": "270:7:4",
                   "stateMutability": "nonpayable",
                   "typeDescriptions": {
                     "typeIdentifier": "t_address",
@@ -176,13 +176,13 @@
               },
               {
                 "constant": false,
-                "id": 684,
+                "id": 1053,
                 "mutability": "mutable",
                 "name": "proposalType",
-                "nameLocation": "326:12:3",
+                "nameLocation": "326:12:4",
                 "nodeType": "VariableDeclaration",
-                "scope": 687,
-                "src": "319:19:3",
+                "scope": 1056,
+                "src": "319:19:4",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -190,10 +190,10 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 683,
+                  "id": 1052,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "319:6:3",
+                  "src": "319:6:4",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string"
@@ -203,13 +203,13 @@
               },
               {
                 "constant": false,
-                "id": 686,
+                "id": 1055,
                 "mutability": "mutable",
                 "name": "candidate",
-                "nameLocation": "356:9:3",
+                "nameLocation": "356:9:4",
                 "nodeType": "VariableDeclaration",
-                "scope": 687,
-                "src": "349:16:3",
+                "scope": 1056,
+                "src": "349:16:4",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -217,10 +217,10 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 685,
+                  "id": 1054,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "349:6:3",
+                  "src": "349:6:4",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string"
@@ -230,20 +230,20 @@
               }
             ],
             "name": "CoachVote",
-            "nameLocation": "249:9:3",
+            "nameLocation": "249:9:4",
             "nodeType": "StructDefinition",
-            "scope": 688,
-            "src": "242:131:3",
+            "scope": 1057,
+            "src": "242:131:4",
             "visibility": "public"
           }
         ],
-        "scope": 689,
-        "src": "68:308:3",
+        "scope": 1058,
+        "src": "68:308:4",
         "usedErrors": [],
         "usedEvents": []
       }
     ],
-    "src": "40:336:3"
+    "src": "40:336:4"
   },
   "compiler": {
     "name": "solc",
@@ -251,7 +251,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-03-04T06:07:22.516Z",
+  "updatedAt": "2024-03-14T05:21:03.294Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

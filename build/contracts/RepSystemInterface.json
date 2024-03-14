@@ -1,0 +1,179 @@
+{
+  "contractName": "RepSystemInterface",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_memberAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_tokens",
+          "type": "uint256"
+        }
+      ],
+      "name": "awardRepTokens",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_memberAddress\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_tokens\",\"type\":\"uint256\"}],\"name\":\"awardRepTokens\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/RepSystemInterface.sol\":\"RepSystemInterface\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/RepSystemInterface.sol\":{\"keccak256\":\"0x293916e8c5424aaafa5c103bd96b9d9241134684f3d29277d48abe8c80bc7800\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://7f38858e76b6492b5b493274666ceb762e681b015a7268b4f2eb35fef5bc2dce\",\"dweb:/ipfs/QmZULpa2zSpSYq7yPEs7V9M8rtaHwNSZAh8Q1cpo2Ev4zL\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: UNLICENSED\r\npragma solidity ^0.8.19;\r\n\r\ninterface RepSystemInterface {\r\n    function awardRepTokens(address _memberAddress, uint _tokens) external;\r\n}",
+  "sourcePath": "C:\\Users\\cooki\\OneDrive\\Documents\\Metro State Stuff\\690-Blockchain\\ics670-mn-vikings-dapp\\contracts\\RepSystemInterface.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/RepSystemInterface.sol",
+    "exportedSymbols": {
+      "RepSystemInterface": [
+        914
+      ]
+    },
+    "id": 915,
+    "license": "UNLICENSED",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 906,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".19"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "40:24:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "RepSystemInterface",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 914,
+        "linearizedBaseContracts": [
+          914
+        ],
+        "name": "RepSystemInterface",
+        "nameLocation": "78:18:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "5051af4e",
+            "id": 913,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "awardRepTokens",
+            "nameLocation": "113:14:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 911,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 908,
+                  "mutability": "mutable",
+                  "name": "_memberAddress",
+                  "nameLocation": "136:14:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 913,
+                  "src": "128:22:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 907,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "128:7:2",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 910,
+                  "mutability": "mutable",
+                  "name": "_tokens",
+                  "nameLocation": "157:7:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 913,
+                  "src": "152:12:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 909,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "152:4:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "127:38:2"
+            },
+            "returnParameters": {
+              "id": 912,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "174:0:2"
+            },
+            "scope": 914,
+            "src": "104:71:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 915,
+        "src": "68:110:2",
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "src": "40:138:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.21+commit.d9974bed.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-03-14T05:21:03.284Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
