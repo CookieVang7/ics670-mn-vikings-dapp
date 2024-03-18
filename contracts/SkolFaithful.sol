@@ -10,6 +10,10 @@ contract SkolFaithful {
         uint repTokens;
     }
 
+    function getContractEthBalance() public view returns (uint) {
+        return address(this).balance;
+    }
+
     Member[] public skolFaithful;
 
     function getMembers() external view returns (Member[] memory){
